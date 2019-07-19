@@ -31,7 +31,7 @@ ltfs = data.frame(v1 = sample(c("Y","N"), 100, T),
 ltfs[] = lapply(ltfs,as.integer)
 str(ltfs)
 
-?lapply
+
 install.packages("sjPlot")
 library(sjPlot)
 sjp.corr(ltfs)
