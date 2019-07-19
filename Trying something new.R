@@ -1,3 +1,5 @@
+#Pusing on github
+
 count_blank = sum(Dummy_data1 == "" , na.rm = TRUE)
 count_blank
 
